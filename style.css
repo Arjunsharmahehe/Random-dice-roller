@@ -1,0 +1,56 @@
+body{
+  /* To add an image as a background instead of a colour
+  background-image: url('https://www.fabricdepot.in/cdn/shop/products/FLORAL-PRINT-CAMP127746_20B-FULL00.jpg?v=1703846457');
+  */
+  background-color: #ffdd61;
+}
+
+
+#container{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* To add a white border to the text
+h1{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+*/
+
+button{
+  margin-top: 15px;
+  font-size: 1em;
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: solid;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  transition-duration: 0.5s;
+}
+
+input{
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+#diceresult{
+  margin: 15px;
+}
+
+#diceimage img{
+  width: 150px;
+  margin: 5px;
+  border-radius: 15px;
+}
